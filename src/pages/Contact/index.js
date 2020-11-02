@@ -4,7 +4,7 @@ import './styles.css';
 const Contact = () => {
   return (
     <div className="Contact">
-     
+     <h1>dasd</h1>
     </div>
   );
 }
