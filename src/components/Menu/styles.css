@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+.Header {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 4px 4px ;
+  text-decoration:none;
+  background-color: #D3DEDB;
+  position: fixed;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.Header a {
+  letter-spacing: 3px ;
+  text-decoration: none;
+  color: slategray;
+  font-family:"Arvo", sans-serif;
+  transition: 200ms;
+  font-size: 15px;
+}
+
+.Header a:hover {
+  font-family:"Arvo", sans-serif;
+  color:#942C61;
+  transition: 200ms;
+}
