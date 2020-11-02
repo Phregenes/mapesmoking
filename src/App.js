@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <div className="App">
         <header>
-          {/* <Menu /> */}
+          <Menu /> 
           <Switch>
             <Route exact path="/" component={LandingPage}/>
             <Route path="/home" component={Home}/>
