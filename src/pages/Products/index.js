@@ -12,4 +12,4 @@ const Products = () => {
   );
 }
 
-export default Produts;
+export default Products;

@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import LandingPage from './pages/LandingPage';
 import WhereBuy from './pages/WhereBuy';
+import Products from './pages/Products';
 
 import Menu from './components/Menu';
 
