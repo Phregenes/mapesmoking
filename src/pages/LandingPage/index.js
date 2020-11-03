@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 import Particles from 'react-particles-js';
-import Logo from '../../assents/img/logos.svg';
+import ComponentLanding from '../../components/ComponentLanding';
 
 
 
@@ -129,7 +129,9 @@ const LandingPage = () =>
               
             
             }} />
-     <img className="logo" src={Logo} /> 
+            <div className="componentcenter">
+              <ComponentLanding />
+            </div>
      
 </div>
 
