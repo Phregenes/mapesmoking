@@ -1,27 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+.ComponentMenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 3vw;
 
-.Header {
-  margin-top: 10px;
-  margin-left: 10px;
-  padding: 4px 4px ;
-  text-decoration:none;
-  background-color: #D3DEDB;
-  position: fixed;
-  border-radius: 5px;
-  height: 40px;
+  background: white;
+  /* opacity: 0.8; */
+}
+.MenuLink{
+  font-family: Suez One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  margin: 10px;
+  margin-left: 30%;
+}
+.SocialMedia{
+  
+}
+img.icon{
+  flex-direction: row;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
 }
 
-.Header a {
-  letter-spacing: 3px ;
-  text-decoration: none;
-  color: slategray;
-  font-family:"Arvo", sans-serif;
-  transition: 200ms;
-  font-size: 15px;
-}
-
-.Header a:hover {
-  font-family:"Arvo", sans-serif;
-  color:#942C61;
-  transition: 200ms;
+.LogoMenuBarImg{
+height: 30px;
+margin: 10px;
 }

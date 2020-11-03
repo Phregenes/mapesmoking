@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import LandingPage from './pages/LandingPage';
+import WhereBuy from './pages/WhereBuy';
 
 import Menu from './components/Menu';
 
@@ -21,6 +22,8 @@ function App() {
             <Route path="/contact" component={Contact}/>
             <Route path="/about" component={About}/>
             <Route path="/landingpage" component={LandingPage}/>
+            <Route path="/wherebuy" component={WhereBuy}/>
+            <Route path="/products" component={Products}/>
           </Switch>
         </header>
       </div>
