@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles.css';
 
-import Menu from '../../components/Menu';
+import Menu from '../../components/NavBar';
 
 
 const WhereBuy = () => {
   return (
-    <div className="Home">
+    <div className="WhereBuy">
      <Menu />
     </div>
   );

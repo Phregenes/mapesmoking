@@ -14,11 +14,7 @@ const ComponentLanding = () => {
           SIM
         </button>
       </Link>
-      <Link to="/">
-        <button type="button" className="btn2">
-          NAO
-        </button>
-        </Link>
+      <a className="btn" href="https://capricho.abril.com.br"><button className="btn2">NAO</button></a>
       </div>
     </div>
   );

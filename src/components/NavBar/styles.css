@@ -1,0 +1,80 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 55px;
+  background-color: white;
+  position: fixed;
+}
+ul.Menu{ 
+  margin: 20px 5% 0 auto;
+  list-style: none;
+}
+
+.MaginLink{
+  margin: 20px;
+  height: initial;
+  color: black;
+}
+
+a:link{ 
+  font-size: 14px;
+  text-decoration:none; 
+  text-transform: uppercase;
+}
+
+.logomenu{
+width: 120px;
+height: initial;
+}
+.logomenua{
+  height: min-content;
+  margin: 10px 0 0 50px;
+}
+
+.btninsta{
+  background-image: url(../../assents/img/instagram.svg);
+  width: 26px;
+  height: 26px;
+  border-radius: 5px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 15px 15px 0 0;
+}
+
+.btnspotify{
+  background-image: url(../../assents/img/spotify.svg);
+  width: 26px;
+  height: 26px;
+  border-radius: 5px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 15px 15px 0 0;
+}
+
+.btnwhatsapp{
+  background-image: url(../../assents/img/whatsapp.svg);
+  width: 26px;
+  height: 26px;
+  border-radius: 5px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 15px 15px 0 0;
+}
+

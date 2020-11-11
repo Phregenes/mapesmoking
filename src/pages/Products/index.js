@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles.css';
 
-import Menu from '../../components/Menu';
-
+import Menu from '../../components/NavBar';
 
 const Products = () => {
   return (
-    <div className="Home">
-     <Menu />
+    <div className="Products">
+      < Menu />
+      <h1>hello</h1>
     </div>
   );
 }

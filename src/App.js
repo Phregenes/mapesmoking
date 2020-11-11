@@ -9,14 +9,11 @@ import LandingPage from './pages/LandingPage';
 import WhereBuy from './pages/WhereBuy';
 import Products from './pages/Products';
 
-import Menu from './components/Menu';
-
 function App() {
   return (
     <div className="App">
       <div className="App">
         <header>
-          {/* <Menu /> */}
           <Switch>
             <Route exact path="/" component={LandingPage}/>
             <Route path="/home" component={Home}/>

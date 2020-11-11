@@ -4,6 +4,8 @@ import './style.css';
 import Particles from 'react-particles-js';
 import ComponentLanding from '../../components/ComponentLanding';
 
+import shape from '../../assents/img/nave.png';
+
 
 
 const LandingPage = () => 
@@ -24,32 +26,31 @@ const LandingPage = () =>
                   "value": "#070707"
                 },
                 "shape": {
-                  "type": "circle",
+                  "type": "images",
                   "stroke": {
-                    "width": 0,
+                    "width": 20,
                     "color": "#000000"
                   },
                   "polygon": {
-                    "nb_sides": 5
+                    "nb_sides": 40
                   },
-                  "image": {
-                    "src": "img/github.svg",
-                    "width": 50,
-                    "height": 50
+                  "images": {
+                    "src": shape,
+                    "width": 500,
+                    "height": 500
                   }
                 },
                 "opacity": {
-                  "value": 0.5,
-                  "random": false,
+                  "value": 1,
                   "anim": {
-                    "enable": false,
-                    "speed": 1,
-                    "opacity_min": 0.1,
+                    "enable": true,
+                    "speed": 4,
+                    "opacity_min": 0.4,
                     "sync": false
                   }
                 },
                 "size": {
-                  "value": 5,
+                  "value": 30,
                   "random": true,
                   "anim": {
                     "enable": false,
@@ -61,14 +62,14 @@ const LandingPage = () =>
                 "line_linked": {
                   "enable": true,
                   "distance": 200,
-                  "color": "#A9A9A9",
+                  "color": "#3D195B",
                   "opacity": 0.4,
                   "width": 1
                 },
                 "move": {
                   "enable": true,
                   "speed": 1,
-                  "direction": "none",
+                  "direction": "right",
                   "random": false,
                   "straight": false,
                   "out_mode": "out",
@@ -126,6 +127,72 @@ const LandingPage = () =>
                 "background_repeat": "no-repeat",
                 "background_size": "cover"
               }
+
+
+
+              // "particles": {
+              //   "number": {
+              //     "value": 50,
+              //     "density": {
+              //       "enable": true,
+              //       "value_area": 500
+              //     }
+              //   },
+              //   "color": {
+              //     "value": "#fff"
+              //   },
+              //   "opacity": {
+              //     "value": 1,
+              //     "anim": {
+              //       "enable": true,
+              //       "speed": 8,
+              //       "opacity_min": 0.4,
+              //       "sync": false
+              //     }
+              //   },
+              //   "shape": {
+              //     "type": "images",
+              //     "stroke": {
+              //       "width": 20,
+              //       "color": "#000000"
+              //     },
+              //     "polygon": {
+              //       "nb_sides": 40
+              //     },
+              //     "images": {
+              //       "src": shape,
+              //       "width": 500,
+              //       "height": 500
+              //     }
+              //   },
+              //   "size": {
+              //     "value": 15,
+              //     "random": true
+              //   },
+              //   "line_linked": {
+              //     "enable": false
+              //   },
+              //   "move": {
+              //     "enable": true,
+              //     "speed": 3,
+              //     "direction": "right",
+              //     "straight": true
+              //   }
+              // },
+              // "interactivity": {
+              //   "detect_on": "canvas",
+              //   "events": {
+              //     "onhover": {
+              //       "enable": false
+              //     },
+              //     "onclick": {
+              //       "enable": false
+              //     }
+              //   }
+              // }
+            
+
+
               
             
             }} />
@@ -136,3 +203,7 @@ const LandingPage = () =>
 </div>
 
 export default LandingPage;
+
+
+
+ 
