@@ -4,12 +4,11 @@ import './style.css';
 import Particles from 'react-particles-js';
 import ComponentLanding from '../../components/ComponentLanding';
 
-import shape from '../../assents/img/nave.png';
-
+import shape from '../../assents/img/nave.svg';
+import beck from '../../assents/img/beck.png';
 
 
 const LandingPage = () => 
-
 <div className="particles">
   
       <Particles 
@@ -34,11 +33,18 @@ const LandingPage = () =>
                   "polygon": {
                     "nb_sides": 40
                   },
-                  "images": {
-                    "src": shape,
-                    "width": 500,
-                    "height": 500
-                  }
+                  "images": [
+                    {
+                      "src": shape,
+                      "width": 100,
+                      "height": 100
+                    },
+                    {
+                      "src": beck,
+                      "width": 1,
+                      "height": 1
+                    }
+                  ]
                 },
                 "opacity": {
                   "value": 1,
@@ -50,19 +56,19 @@ const LandingPage = () =>
                   }
                 },
                 "size": {
-                  "value": 30,
+                  "value": 20,
                   "random": true,
                   "anim": {
                     "enable": false,
                     "speed": 40,
-                    "size_min": 0.1,
+                    "size_min": 5,
                     "sync": false
                   }
                 },
                 "line_linked": {
                   "enable": true,
                   "distance": 200,
-                  "color": "#3D195B",
+                  "color": "",
                   "opacity": 0.4,
                   "width": 1
                 },
@@ -85,30 +91,30 @@ const LandingPage = () =>
                 "events": {
                   "onhover": {
                     "enable": true,
-                    "mode": "repulse"
+                    "mode": "bubble"
                   },
                   "onclick": {
-                    "enable": true,
-                    "mode": "push"
+                    "enable": false,
+                    "mode": "bubble"
                   },
                   "resize": true
                 },
                 "modes": {
                   "grab": {
-                    "distance": 400,
+                    "distance": 50,
                     "line_linked": {
                       "opacity": 1
                     }
                   },
                   "bubble": {
-                    "distance": 400,
-                    "size": 40,
-                    "duration": 2,
-                    "opacity": 8,
-                    "speed": 3
+                    "distance": 100,
+                    "size": 50,
+                    "duration": 10,
+                    "opacity": 10,
+                    "speed": 700
                   },
                   "repulse": {
-                    "distance": 120
+                    "distance": 100
                   },
                   "push": {
                     "particles_nb": 4
@@ -127,81 +133,12 @@ const LandingPage = () =>
                 "background_repeat": "no-repeat",
                 "background_size": "cover"
               }
-
-
-
-              // "particles": {
-              //   "number": {
-              //     "value": 50,
-              //     "density": {
-              //       "enable": true,
-              //       "value_area": 500
-              //     }
-              //   },
-              //   "color": {
-              //     "value": "#fff"
-              //   },
-              //   "opacity": {
-              //     "value": 1,
-              //     "anim": {
-              //       "enable": true,
-              //       "speed": 8,
-              //       "opacity_min": 0.4,
-              //       "sync": false
-              //     }
-              //   },
-              //   "shape": {
-              //     "type": "images",
-              //     "stroke": {
-              //       "width": 20,
-              //       "color": "#000000"
-              //     },
-              //     "polygon": {
-              //       "nb_sides": 40
-              //     },
-              //     "images": {
-              //       "src": shape,
-              //       "width": 500,
-              //       "height": 500
-              //     }
-              //   },
-              //   "size": {
-              //     "value": 15,
-              //     "random": true
-              //   },
-              //   "line_linked": {
-              //     "enable": false
-              //   },
-              //   "move": {
-              //     "enable": true,
-              //     "speed": 3,
-              //     "direction": "right",
-              //     "straight": true
-              //   }
-              // },
-              // "interactivity": {
-              //   "detect_on": "canvas",
-              //   "events": {
-              //     "onhover": {
-              //       "enable": false
-              //     },
-              //     "onclick": {
-              //       "enable": false
-              //     }
-              //   }
-              // }
-            
-
-
-              
-            
             }} />
             <div className="componentcenter">
               <ComponentLanding />
             </div>
      
 </div>
-
 export default LandingPage;
 
 
