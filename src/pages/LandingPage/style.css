@@ -16,4 +16,5 @@
 .particles{
   background-image: url(../../assents/img/stars.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
