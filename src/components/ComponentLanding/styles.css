@@ -1,5 +1,5 @@
 .ComponentLanding{
-  height: initial;
+  height: 50vh;
   background:transparent;
   display: flex;
   flex-direction: column;

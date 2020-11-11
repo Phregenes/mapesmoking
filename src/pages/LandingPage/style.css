@@ -3,7 +3,6 @@
   padding: 0;
   height: 100vh;
 }
-
 .componentcenter{
   height: 50vh;
   margin: 0;
@@ -14,8 +13,7 @@
   background-color: transparent;
 }
 .particles{
-  /* background-image: url(../../assents/img/stars.jpg);
+  background-image: url(../../assents/img/stars.jpg);
   background-position: center;
-  background-repeat: no-repeat; */
-  background-color: black;
+  background-repeat: no-repeat;
 }

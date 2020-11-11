@@ -5,7 +5,6 @@ import Particles from 'react-particles-js';
 import ComponentLanding from '../../components/ComponentLanding';
 
 import shape from '../../assents/img/nave.svg';
-import beck from '../../assents/img/beck.png';
 
 
 const LandingPage = () => 
@@ -15,10 +14,10 @@ const LandingPage = () =>
             params={{
               "particles": {
                 "number": {
-                  "value": 30,
+                  "value": 5,
                   "density": {
                     "enable": true,
-                    "value_area": 400
+                    "value_area": 100
                   }
                 },
                 "color": {
@@ -33,18 +32,13 @@ const LandingPage = () =>
                   "polygon": {
                     "nb_sides": 40
                   },
-                  "images": [
+                  "images": 
                     {
                       "src": shape,
-                      "width": 100,
-                      "height": 100
+                      "width": 5,
+                      "height": 5
                     },
-                    {
-                      "src": beck,
-                      "width": 1,
-                      "height": 1
-                    }
-                  ]
+                  
                 },
                 "opacity": {
                   "value": 1,
@@ -97,7 +91,7 @@ const LandingPage = () =>
                     "enable": false,
                     "mode": "bubble"
                   },
-                  "resize": true
+                  "resize": false
                 },
                 "modes": {
                   "grab": {
@@ -124,11 +118,11 @@ const LandingPage = () =>
                   }
                 }
               },
-              "retina_detect": true,
+              "retina_detect": false,
               "config_demo": {
                 "hide_card": false,
                 "background_color": "#b61924",
-                "background_image": "",
+                "background_image": "#b61924",
                 "background_position": "50% 50%",
                 "background_repeat": "no-repeat",
                 "background_size": "cover"
