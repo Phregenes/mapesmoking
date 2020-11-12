@@ -5,6 +5,7 @@ import Particles from 'react-particles-js';
 import ComponentLanding from '../../components/ComponentLanding';
 
 import shape from '../../assents/img/nave.svg';
+import beck from '../../assents/img/beck.png';
 
 
 const LandingPage = () => 
@@ -32,13 +33,18 @@ const LandingPage = () =>
                   "polygon": {
                     "nb_sides": 40
                   },
-                  "images": 
+                  "images":[ 
                     {
                       "src": shape,
                       "width": 5,
                       "height": 5
                     },
-                  
+                    {
+                    "src": beck,
+                    "width": 5,
+                    "height": 5
+                    },
+                  ]
                 },
                 "opacity": {
                   "value": 1,
