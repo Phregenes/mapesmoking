@@ -12,19 +12,15 @@ import Products from './pages/Products';
 function App() {
   return (
     <div className="App">
-      <div className="App">
-        <header>
-          <Switch>
-            <Route exact path="/" component={LandingPage}/>
-            <Route path="/home" component={Home}/>
-            <Route path="/contact" component={Contact}/>
-            <Route path="/about" component={About}/>
-            <Route path="/landingpage" component={LandingPage}/>
-            <Route path="/wherebuy" component={WhereBuy}/>
-            <Route path="/products" component={Products}/>
-          </Switch>
-        </header>
-      </div>
+      <Switch>
+        <Route exact path="/" component={LandingPage}/>
+        <Route path="/home" component={Home}/>
+        <Route path="/contact" component={Contact}/>
+        <Route path="/about" component={About}/>
+        <Route path="/landingpage" component={LandingPage}/>
+        <Route path="/wherebuy" component={WhereBuy}/>
+        <Route path="/products" component={Products}/>
+      </Switch>
     </div>
   );
 }
