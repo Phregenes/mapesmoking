@@ -1,5 +1,5 @@
-import shape from '../../assents/img/nave.svg';
-import beck from '../../assents/img/beck.png';
+import shape from '../../assets/img/nave.svg';
+import beck from '../../assets/img/beck.png';
 
 export const particlesParams = {
   particles: {

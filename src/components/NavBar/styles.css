@@ -34,7 +34,7 @@ height: initial;
 }
 
 .btninsta{
-  background-image: url(../../assents/img/instagram.svg);
+  background-image: url(../../assets/img/instagram.svg);
   width: 26px;
   height: 26px;
   border-radius: 5px;
@@ -49,7 +49,7 @@ height: initial;
 }
 
 .btnspotify{
-  background-image: url(../../assents/img/spotify.svg);
+  background-image: url(../../assets/img/spotify.svg);
   width: 26px;
   height: 26px;
   border-radius: 5px;
@@ -64,7 +64,7 @@ height: initial;
 }
 
 .btnwhatsapp{
-  background-image: url(../../assents/img/whatsapp.svg);
+  background-image: url(../../assets/img/whatsapp.svg);
   width: 26px;
   height: 26px;
   border-radius: 5px;
